@@ -9,7 +9,7 @@
               type="text"
               class="dashboard__inp input"
               placeholder="Ваш город"
-              v-model="query"
+              v-model.trim="query"
             />
             <button class="test btn" @click="fetchWeather">Узнать</button>
           </div>
