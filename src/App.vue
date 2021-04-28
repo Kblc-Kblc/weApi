@@ -9,7 +9,7 @@
               type="text"
               class="dashboard__inp input"
               placeholder="Ваш город"
-              v-model.trim="query"
+              v-model="query"
             />
             <button class="test btn" @click="fetchWeather">Узнать</button>
           </div>
@@ -224,12 +224,12 @@ body {
   }
 
   &__date {
-    padding: 0px 0px 30px 45px;
+    padding: 0px 0px 30px 44px;
     position: relative;
     &:before {
       content: "";
       position: absolute;
-      left: 0;
+      left: 1.5%;
       bottom: 0;
       top: -9%;
       background: url("./assets/cal.svg") 0 0 no-repeat;
